@@ -96,7 +96,7 @@ class _ReminderScreenState extends State<ReminderScreen> {
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: _setReminder,
-              style: ElevatedButton.styleFrom(primary: Colors.green),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               child: Text("Set Reminder"),
             ),
           ],

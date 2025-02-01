@@ -1,44 +1,38 @@
 plugins {
-    id "com.android.application"
-    id "kotlin-android"
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
-    id "dev.flutter.flutter-gradle-plugin"
+    id "com.android.application" // Apply the Android application plugin
+    id "kotlin-android"          // Apply the Kotlin plugin for Android
+    id "dev.flutter.flutter-gradle-plugin" // Apply the Flutter Gradle plugin
 }
 
 android {
-    namespace = "com.example.testapp"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.edumate.ai" // Set the namespace (required for AGP 7.0+)
+    compileSdk = flutter.compileSdkVersion // Use the compileSdkVersion from Flutter
+    ndkVersion = flutter.ndkVersion       // Use the NDK version from Flutter
+
+    defaultConfig {
+        applicationId = "com.edumate.ai" // Set the unique application ID
+        minSdk = flutter.minSdkVersion        // Minimum SDK version supported
+        targetSdk = flutter.targetSdkVersion  // Target SDK version
+        versionCode = flutter.versionCode     // Version code for the app
+        versionName = flutter.versionName     // Version name for the app
+    }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8 // Use Java 8 compatibility
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
-    }
-
-    defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.testapp"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        jvmTarget = JavaVersion.VERSION_1_8 // Set JVM target to Java 8
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.debug
+            signingConfig = signingConfigs.debug // Use debug signing config for release builds (update later)
         }
     }
 }
 
 flutter {
-    source = "../.."
+    source = "../.." // Point to the Flutter project root
 }
