@@ -13,7 +13,7 @@ class _ChatScreenState extends State<ChatScreen> {
   List<Map<String, dynamic>> messages = [];
 
   // Initialize OpenAI client with your API key
-  final OpenAIClient _openAI = OpenAIClient(apiKey: 'YOUR_OPENAI_API_KEY'); // Replace with your API key
+  final OpenAIClient _openAI = OpenAIClient(apiKey: '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'); // Replace with your API key
 
   void sendUserMessage(String message) async {
     if (message.isNotEmpty) {

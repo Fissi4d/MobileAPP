@@ -1,5 +1,3 @@
-// lib/services/notification_service.dart
-
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest.dart' as tz_data;
@@ -14,6 +12,7 @@ class NotificationService {
 
     const AndroidInitializationSettings androidInitSettings =
         AndroidInitializationSettings('app_icon'); // Replace 'app_icon' with your app icon name
+
     const InitializationSettings initializationSettings =
         InitializationSettings(android: androidInitSettings);
 
@@ -33,20 +32,23 @@ class NotificationService {
       'Your Channel Name', // Channel name
       importance: Importance.max,
       priority: Priority.high,
+      playSound: true,
     );
+
     const NotificationDetails platformChannelSpecifics =
         NotificationDetails(android: androidPlatformChannelSpecifics);
 
     // Convert scheduledDate to TZDateTime
     final scheduledTZDateTime = tz.TZDateTime.from(scheduledDate, tz.local);
 
+    // Use zonedSchedule with the updated parameters
     await _notificationsPlugin.zonedSchedule(
       id,
       title,
       body,
       scheduledTZDateTime,
       platformChannelSpecifics,
-      androidAllowWhileIdle: true,
+      androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle, // Ensure delivery while idle
       uiLocalNotificationDateInterpretation:
           UILocalNotificationDateInterpretation.absoluteTime,
     );
