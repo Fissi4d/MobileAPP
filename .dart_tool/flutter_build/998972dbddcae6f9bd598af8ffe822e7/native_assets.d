@@ -1,0 +1,1 @@
+ C:\\Users\\Gresa\\Desktop\\MobileAPP\\testapp\\.dart_tool\\flutter_build\\998972dbddcae6f9bd598af8ffe822e7\\native_assets.yaml: 

@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ai.edumate"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10    <!-- Permissions -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:4:5-81
+12-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:5:5-66
+13-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+14-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:6:5-79
+14-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:7:5-77
+15-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:7:22-74
+16
+17    <!-- Optional: Storage Permissions (only if needed) -->
+18    <!-- Remove these if targeting Android 10+ (API level 29 and above) -->
+19    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" /> -->
+20    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="28" /> -->
+21
+22    <queries>
+22-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:14:5-19:15
+23        <intent>
+23-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:15:9-18:18
+24            <action android:name="android.intent.action.PROCESS_TEXT" />
+24-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:16:13-73
+24-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:16:21-70
+25
+26            <data android:mimeType="text/plain" />
+26-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-51
+26-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:19-48
+27        </intent>
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+31        android:name="com.ai.edumate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.ai.edumate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:21:5-72:19
+37        android:name="androidx.multidex.MultiDexApplication"
+37-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:23:9-61
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\15280d2def2098ac64f8f9d589db8c6e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:24:9-43
+42        android:label="EduMate AI"
+42-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:22:9-35
+43        android:usesCleartextTraffic="false" > <!-- Consider changing to false if HTTPS is used -->
+43-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:25:9-45
+44
+45
+46        <!-- Metadata for Notification Channels -->
+47        <meta-data
+47-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:28:9-30:41
+48            android:name="com.dexterous.flutterlocalnotifications.notification_channel_name"
+48-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:29:13-93
+49            android:value="Reminders" />
+49-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:30:13-38
+50        <meta-data
+50-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:31:9-33:66
+51            android:name="com.dexterous.flutterlocalnotifications.notification_channel_description"
+51-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:32:13-100
+52            android:value="Notification channel for reminders" />
+52-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:33:13-63
+53
+54        <!-- Service for handling scheduled notifications -->
+55        <service
+55-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:36:9-38:40
+56            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsService"
+56-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:37:13-105
+57            android:exported="false" />
+57-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:38:13-37
+58
+59        <!-- Receiver for boot completed events -->
+60        <receiver
+60-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:41:9-47:20
+61            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsPluginRebootReceiver"
+61-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:42:13-118
+62            android:exported="false" >
+62-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:43:13-37
+63            <intent-filter>
+63-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:44:13-46:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:45:17-79
+64-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:45:25-76
+65            </intent-filter>
+66        </receiver>
+67
+68        <!-- Main Activity -->
+69        <activity
+69-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:50:9-67:20
+70            android:name="com.ai.edumate.MainActivity"
+70-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:51:13-41
+71            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+71-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:55:13-163
+72            android:exported="true"
+72-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:52:13-36
+73            android:hardwareAccelerated="true"
+73-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:13-47
+74            android:launchMode="singleTop"
+74-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:53:13-43
+75            android:theme="@style/LaunchTheme"
+75-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:54:13-47
+76            android:windowSoftInputMode="adjustResize" >
+76-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:57:13-55
+77            <meta-data
+77-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:13-61:57
+78                android:name="io.flutter.embedding.android.NormalTheme"
+78-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:60:17-72
+79                android:resource="@style/NormalTheme" />
+79-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:61:17-54
+80
+81            <intent-filter>
+81-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:63:13-66:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:64:17-69
+82-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:64:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:65:17-77
+84-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:65:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <meta-data
+88-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:69:9-71:33
+89            android:name="flutterEmbedding"
+89-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:70:13-44
+90            android:value="2" />
+90-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:71:13-30
+91
+92        <uses-library
+92-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+93            android:name="androidx.window.extensions"
+93-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+94            android:required="false" />
+94-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+95        <uses-library
+95-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+96            android:name="androidx.window.sidecar"
+96-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+97            android:required="false" />
+97-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\cf6c01fb0987b45d846e59ea15172dbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+98
+99        <provider
+99-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+101            android:authorities="com.ai.edumate.androidx-startup"
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\0bfbf394bed29801188c7f5a8f09adb3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\6927cd16f6087690818bb65b1f770560\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>
