@@ -38,11 +38,11 @@ class TaskListProvider with ChangeNotifier {
   }
 
   void updateTask(int index, String newTitle) {
-    if (index >= 0 && index < _tasks.length && newTitle.isNotEmpty) {
-      _tasks[index].title = newTitle;
-      notifyListeners();
-    }
+  if (index >= 0 && index < _tasks.length) {
+    _tasks[index].title = newTitle;
+    notifyListeners(); // Ensure UI updates
   }
+}
 
   void toggleTaskCompletion(int index) {
     if (index >= 0 && index < _tasks.length) {
@@ -55,6 +55,14 @@ class TaskListProvider with ChangeNotifier {
     _tasks.clear();
     notifyListeners();
   }
+
+  void removeReminder(int index) async {
+  if (index >= 0 && index < _tasks.length) {
+    await _notificationsPlugin.cancel(index); // Cancel the notification
+    _tasks[index].reminderTime = null; // Remove the reminder time
+    notifyListeners(); // Update the UI
+  }
+}
 
   void setReminder(int index, DateTime reminderTime) async {
     if (index >= 0 && index < _tasks.length) {

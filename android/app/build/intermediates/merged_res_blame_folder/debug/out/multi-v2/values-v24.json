@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ai.edumate.app-mergeDebugResources-25:/values-v24/values-v24.xml",
+            "outputFile": "com.ai.edumate.app-mergeDebugResources-26:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\090f44f6997c2c57ad7f456ae77b716b\\transformed\\media-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\2d9a7c1a805cf8156d9e8336fd0c535c\\transformed\\media-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

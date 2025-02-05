@@ -1,0 +1,7 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.ai.edumate.MainActivity { <init>(); }
+-keep class dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsPluginRebootReceiver { <init>(); }
+-keep class dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsService { <init>(); }
