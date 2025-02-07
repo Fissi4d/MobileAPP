@@ -17,6 +17,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":@@:flutter_native_splash::release"
+      jars="C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.4\android\build\.transforms\9ec191938e5dd72b12da2c4e40f3419f\transformed\out\jars\classes.jar;C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.4\android\build\.transforms\9ec191938e5dd72b12da2c4e40f3419f\transformed\out\jars\libs\R.jar"
+      resolved="net.jonhanson.flutter_native_splash:flutter_native_splash:unspecified"
+      folder="C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.4\android\build\.transforms\9ec191938e5dd72b12da2c4e40f3419f\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":@@:permission_handler_android::release"
       jars="C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.0.13\android\build\.transforms\4db76d5f112d270b9e24fb5059268d12\transformed\out\jars\classes.jar;C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.0.13\android\build\.transforms\4db76d5f112d270b9e24fb5059268d12\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.permissionhandler:permission_handler_android:unspecified"
@@ -125,40 +138,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-common-java8:2.7.0@jar"
-      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.7.0\2ad14aed781c4a73ed4dbb421966d408a0a06686\lifecycle-common-java8-2.7.0.jar"
-      resolved="androidx.lifecycle:lifecycle-common-java8:2.7.0"/>
-  <library
-      name="androidx.lifecycle:lifecycle-common:2.7.0@jar"
-      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.7.0\85334205d65cca70ed0109c3acbd29e22a2d9cb1\lifecycle-common-2.7.0.jar"
-      resolved="androidx.lifecycle:lifecycle-common:2.7.0"/>
-  <library
-      name="androidx.lifecycle:lifecycle-runtime:2.7.0@aar"
-      jars="C:\Users\Gresa\.gradle\caches\transforms-3\8260f45d5ae4062c3ddb6d1b34615630\transformed\lifecycle-runtime-2.7.0\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime:2.7.0"
-      folder="C:\Users\Gresa\.gradle\caches\transforms-3\8260f45d5ae4062c3ddb6d1b34615630\transformed\lifecycle-runtime-2.7.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.lifecycle:lifecycle-process:2.7.0@aar"
-      jars="C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-process:2.7.0"
-      folder="C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0@aar"
       jars="C:\Users\Gresa\.gradle\caches\transforms-3\7620292edb087b7a34268efdcacd6203\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0"
@@ -224,10 +203,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.annotation:annotation-experimental:1.4.0@aar"
-      jars="C:\Users\Gresa\.gradle\caches\transforms-3\0d4f03e5d286dc48e17f8ac1c486f87d\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.4.0"
-      folder="C:\Users\Gresa\.gradle\caches\transforms-3\0d4f03e5d286dc48e17f8ac1c486f87d\transformed\jetified-annotation-experimental-1.4.0"
+      name="androidx.lifecycle:lifecycle-runtime:2.7.0@aar"
+      jars="C:\Users\Gresa\.gradle\caches\transforms-3\8260f45d5ae4062c3ddb6d1b34615630\transformed\lifecycle-runtime-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime:2.7.0"
+      folder="C:\Users\Gresa\.gradle\caches\transforms-3\8260f45d5ae4062c3ddb6d1b34615630\transformed\lifecycle-runtime-2.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -236,6 +215,27 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-process:2.7.0@aar"
+      jars="C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-process:2.7.0"
+      folder="C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common-java8:2.7.0@jar"
+      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.7.0\2ad14aed781c4a73ed4dbb421966d408a0a06686\lifecycle-common-java8-2.7.0.jar"
+      resolved="androidx.lifecycle:lifecycle-common-java8:2.7.0"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common:2.7.0@jar"
+      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.7.0\85334205d65cca70ed0109c3acbd29e22a2d9cb1\lifecycle-common-2.7.0.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.7.0"/>
   <library
       name="androidx.window:window:1.2.0@aar"
       jars="C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\jars\classes.jar"
@@ -263,10 +263,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="C:\Users\Gresa\.gradle\caches\transforms-3\2d97fc7f567c98743858e23684a2637d\transformed\versionedparcelable-1.1.1\jars\classes.jar"
-      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="C:\Users\Gresa\.gradle\caches\transforms-3\2d97fc7f567c98743858e23684a2637d\transformed\versionedparcelable-1.1.1"
+      name="androidx.annotation:annotation-experimental:1.4.0@aar"
+      jars="C:\Users\Gresa\.gradle\caches\transforms-3\0d4f03e5d286dc48e17f8ac1c486f87d\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.0"
+      folder="C:\Users\Gresa\.gradle\caches\transforms-3\0d4f03e5d286dc48e17f8ac1c486f87d\transformed\jetified-annotation-experimental-1.4.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate:1.2.1@aar"
+      jars="C:\Users\Gresa\.gradle\caches\transforms-3\057e07b84cf2a5d9d2c30c8062ee679a\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate:1.2.1"
+      folder="C:\Users\Gresa\.gradle\caches\transforms-3\057e07b84cf2a5d9d2c30c8062ee679a\transformed\jetified-savedstate-1.2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -293,14 +306,10 @@
       jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
       resolved="androidx.arch.core:core-common:2.2.0"/>
   <library
-      name="androidx.collection:collection:1.1.0@jar"
-      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
-      resolved="androidx.collection:collection:1.1.0"/>
-  <library
-      name="androidx.savedstate:savedstate:1.2.1@aar"
-      jars="C:\Users\Gresa\.gradle\caches\transforms-3\057e07b84cf2a5d9d2c30c8062ee679a\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
-      resolved="androidx.savedstate:savedstate:1.2.1"
-      folder="C:\Users\Gresa\.gradle\caches\transforms-3\057e07b84cf2a5d9d2c30c8062ee679a\transformed\jetified-savedstate-1.2.1"
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="C:\Users\Gresa\.gradle\caches\transforms-3\2d97fc7f567c98743858e23684a2637d\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="C:\Users\Gresa\.gradle\caches\transforms-3\2d97fc7f567c98743858e23684a2637d\transformed\versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -309,6 +318,10 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="androidx.collection:collection:1.1.0@jar"
+      jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
+      resolved="androidx.collection:collection:1.1.0"/>
   <library
       name="androidx.annotation:annotation-jvm:1.8.0@jar"
       jars="C:\Users\Gresa\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.0\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.0.jar"

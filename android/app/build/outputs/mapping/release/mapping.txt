@@ -3,8 +3,8 @@
 # min_api: 23
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 7b4ecb1
-# pg_map_hash: SHA-256 7b4ecb156f1ac1ae2d54a2c631af3bf4f6efce99eaf1500487570c3ab839230b
+# pg_map_id: 2cd1a1a
+# pg_map_hash: SHA-256 2cd1a1a9f8eb37470d3a1936cac1630ca349fd6b62d0b76f07e19238c1b097bd
 _COROUTINE.ArtificialStackFrames -> a.a:
 # {"id":"sourceFile","fileName":"CoroutineDebugging.kt"}
     int $r8$classId -> a
@@ -13862,13 +13862,13 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry -> v0.d:
     64:69:void io.flutter.util.TraceSection.end():0 -> a
     64:69:void io.flutter.util.TraceSection.close():0 -> a
     64:69:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0 -> a
-    70:107:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0:0 -> a
-    108:116:void androidx.tracing.TraceApi18Impl.endSection():0:0 -> a
-    108:116:void androidx.tracing.Trace.endSection():0 -> a
-    108:116:void io.flutter.util.TraceSection.end():0 -> a
-    108:116:void io.flutter.util.TraceSection.close():0 -> a
-    108:116:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0 -> a
-    117:120:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0:0 -> a
+    70:111:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0:0 -> a
+    112:120:void androidx.tracing.TraceApi18Impl.endSection():0:0 -> a
+    112:120:void androidx.tracing.Trace.endSection():0 -> a
+    112:120:void io.flutter.util.TraceSection.end():0 -> a
+    112:120:void io.flutter.util.TraceSection.close():0 -> a
+    112:120:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0 -> a
+    121:124:void add(io.flutter.embedding.engine.plugins.FlutterPlugin):0:0 -> a
     3:54:void io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivityPluginBinding.<init>(android.app.Activity,androidx.lifecycle.Lifecycle):0:0 -> b
     3:54:void attachToActivityInternal(android.app.Activity,androidx.lifecycle.Lifecycle):0 -> b
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lu0/d;Landroidx/lifecycle/p;)V"}
@@ -16670,8 +16670,14 @@ io.flutter.plugins.GeneratedPluginRegistrant -> io.flutter.plugins.GeneratedPlug
     20:21:void registerWith(io.flutter.embedding.engine.FlutterEngine):0 -> registerWith
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     22:33:void registerWith(io.flutter.embedding.engine.FlutterEngine):0:0 -> registerWith
-    34:37:void io.flutter.Log.e(java.lang.String,java.lang.String,java.lang.Throwable):0:0 -> registerWith
-    34:37:void registerWith(io.flutter.embedding.engine.FlutterEngine):0 -> registerWith
+    34:36:void io.flutter.Log.e(java.lang.String,java.lang.String,java.lang.Throwable):0:0 -> registerWith
+    34:36:void registerWith(io.flutter.embedding.engine.FlutterEngine):0 -> registerWith
+    37:38:io.flutter.embedding.engine.plugins.PluginRegistry io.flutter.embedding.engine.FlutterEngine.getPlugins():0:0 -> registerWith
+    37:38:void registerWith(io.flutter.embedding.engine.FlutterEngine):0 -> registerWith
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    39:50:void registerWith(io.flutter.embedding.engine.FlutterEngine):0:0 -> registerWith
+    51:54:void io.flutter.Log.e(java.lang.String,java.lang.String,java.lang.Throwable):0:0 -> registerWith
+    51:54:void registerWith(io.flutter.embedding.engine.FlutterEngine):0 -> registerWith
 io.flutter.util.HandlerCompat -> R8$$REMOVED$$CLASS$$232:
 # {"id":"sourceFile","fileName":"HandlerCompat.java"}
 io.flutter.util.PathUtils -> R8$$REMOVED$$CLASS$$233:
@@ -23270,3 +23276,17 @@ kotlinx.coroutines.scheduling.WorkQueue -> f2.l:
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(IZ)Lf2/h;"}
     25:45:kotlinx.coroutines.scheduling.Task tryExtractFromTheMiddle(int,boolean):0:0 -> c
+net.jonhanson.flutter_native_splash.FlutterNativeSplashPlugin -> g2.a:
+# {"id":"sourceFile","fileName":"FlutterNativeSplashPlugin.java"}
+    io.flutter.plugin.common.MethodChannel channel -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Ld1/m;"}
+    void <init>() -> <init>
+    3:6:io.flutter.plugin.common.BinaryMessenger io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding.getBinaryMessenger():0:0 -> onAttachedToEngine
+    3:6:void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding):0 -> onAttachedToEngine
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La1/a;)V"}
+    7:15:void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding):0:0 -> onAttachedToEngine
+    1:1:void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding):0:0 -> onDetachedFromEngine
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La1/a;)V"}
+    1:1:void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result):0:0 -> onMethodCall
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ld1/j;Ld1/l;)V"}

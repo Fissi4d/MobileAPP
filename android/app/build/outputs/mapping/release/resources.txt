@@ -1,9 +1,9 @@
-Marking drawable:ic_call_decline:2131099652 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_call_decline:2131099654 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_hang_up_action:2131427332 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:call_notification_decline_color:2130968579 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_decline_action:2131427331 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_call_answer_video:2131099650 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
-Marking drawable:ic_call_answer:2131099648 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_call_answer_video:2131099652 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
+Marking drawable:ic_call_answer:2131099650 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_answer_video_action:2131427330 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking string:call_notification_answer_action:2131427329 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
 Marking color:call_notification_answer_color:2130968578 reachable: referenced from C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\build\intermediates\dex\release\minifyReleaseWithR8\classes.dex
@@ -454,6 +454,7 @@ domain
 viewType
 editingValue
 allocateInstance
+getPlatformVersion
 Sep
 DAY_OF_YEAR
 SecondOfDay
@@ -666,6 +667,7 @@ CUT
 $this$require
 code_cache
 Sun
+flutter_native_splash
 QuarterYears
 LOWER_CASE_WITH_DASHES
 IDENTITY
@@ -1831,6 +1833,7 @@ Marking id:view_tree_saved_state_registry_owner:2131165279 used because it match
 Marking id:view_tree_view_model_store_owner:2131165280 used because it matches string pool constant view
 Marking color:androidx_core_ripple_material_light:2130968576 used because it matches string pool constant android
 Marking color:androidx_core_secondary_text_default_material_light:2130968577 used because it matches string pool constant android
+Marking drawable:android12splash:2131099648 used because it matches string pool constant android
 Marking id:androidx_window_activity_scope:2131165227 used because it matches string pool constant android
 Marking string:androidx_startup:2131427328 used because it matches string pool constant android
 Marking color:notification_action_color_filter:2130968580 used because it matches string pool constant notification
@@ -1851,18 +1854,18 @@ Marking dimen:notification_small_icon_size_as_large:2131034130 used because it m
 Marking dimen:notification_subtext_size:2131034131 used because it matches string pool constant notification
 Marking dimen:notification_top_pad:2131034132 used because it matches string pool constant notification
 Marking dimen:notification_top_pad_large_text:2131034133 used because it matches string pool constant notification
-Marking drawable:notification_action_background:2131099655 used because it matches string pool constant notification
-Marking drawable:notification_bg:2131099656 used because it matches string pool constant notification
-Marking drawable:notification_bg_low:2131099657 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_normal:2131099658 used because it matches string pool constant notification
-Marking drawable:notification_bg_low_pressed:2131099659 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal:2131099660 used because it matches string pool constant notification
-Marking drawable:notification_bg_normal_pressed:2131099661 used because it matches string pool constant notification
-Marking drawable:notification_icon_background:2131099662 used because it matches string pool constant notification
-Marking drawable:notification_oversize_large_icon_bg:2131099663 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_bg:2131099664 used because it matches string pool constant notification
-Marking drawable:notification_template_icon_low_bg:2131099665 used because it matches string pool constant notification
-Marking drawable:notification_tile_bg:2131099666 used because it matches string pool constant notification
+Marking drawable:notification_action_background:2131099657 used because it matches string pool constant notification
+Marking drawable:notification_bg:2131099658 used because it matches string pool constant notification
+Marking drawable:notification_bg_low:2131099659 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2131099660 used because it matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2131099661 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal:2131099662 used because it matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2131099663 used because it matches string pool constant notification
+Marking drawable:notification_icon_background:2131099664 used because it matches string pool constant notification
+Marking drawable:notification_oversize_large_icon_bg:2131099665 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2131099666 used because it matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2131099667 used because it matches string pool constant notification
+Marking drawable:notification_tile_bg:2131099668 used because it matches string pool constant notification
 Marking id:notification_background:2131165250 used because it matches string pool constant notification
 Marking id:notification_main_column:2131165251 used because it matches string pool constant notification
 Marking id:notification_main_column_container:2131165252 used because it matches string pool constant notification
@@ -1990,6 +1993,8 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
 @dimen/subtitle_outline_width : reachable=false
 @dimen/subtitle_shadow_offset : reachable=false
 @dimen/subtitle_shadow_radius : reachable=false
+@drawable/android12splash : reachable=true
+@drawable/background : reachable=false
 @drawable/ic_call_answer : reachable=true
 @drawable/ic_call_answer_low : reachable=false
 @drawable/ic_call_answer_video : reachable=true
@@ -1997,6 +2002,8 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
 @drawable/ic_call_decline : reachable=true
 @drawable/ic_call_decline_low : reachable=false
 @drawable/launch_background : reachable=false
+    @drawable/background
+    @drawable/splash
 @drawable/notification_action_background : reachable=true
     @color/androidx_core_ripple_material_light
     @dimen/compat_button_inset_horizontal_material
@@ -2022,6 +2029,8 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
 @drawable/notification_tile_bg : reachable=true
     @drawable/notify_panel_notification_icon_bg
 @drawable/notify_panel_notification_icon_bg : reachable=false
+@drawable/splash : reachable=false
+@drawable/splash_logo : reachable=false
 @id/accessibility_action_clickable_span : reachable=true
 @id/accessibility_custom_action_0 : reachable=true
 @id/accessibility_custom_action_1 : reachable=true
@@ -2214,6 +2223,7 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
 @string/status_bar_notification_info_overflow : reachable=false
 @style/LaunchTheme : reachable=true
     @drawable/launch_background
+    @drawable/android12splash
 @style/NormalTheme : reachable=true
 @style/TextAppearance_Compat_Notification : reachable=false
 @style/TextAppearance_Compat_Notification_Info : reachable=false
@@ -2274,21 +2284,22 @@ The root reachable resources are:
  dimen:notification_subtext_size:2131034131
  dimen:notification_top_pad:2131034132
  dimen:notification_top_pad_large_text:2131034133
- drawable:ic_call_answer:2131099648
- drawable:ic_call_answer_video:2131099650
- drawable:ic_call_decline:2131099652
- drawable:notification_action_background:2131099655
- drawable:notification_bg:2131099656
- drawable:notification_bg_low:2131099657
- drawable:notification_bg_low_normal:2131099658
- drawable:notification_bg_low_pressed:2131099659
- drawable:notification_bg_normal:2131099660
- drawable:notification_bg_normal_pressed:2131099661
- drawable:notification_icon_background:2131099662
- drawable:notification_oversize_large_icon_bg:2131099663
- drawable:notification_template_icon_bg:2131099664
- drawable:notification_template_icon_low_bg:2131099665
- drawable:notification_tile_bg:2131099666
+ drawable:android12splash:2131099648
+ drawable:ic_call_answer:2131099650
+ drawable:ic_call_answer_video:2131099652
+ drawable:ic_call_decline:2131099654
+ drawable:notification_action_background:2131099657
+ drawable:notification_bg:2131099658
+ drawable:notification_bg_low:2131099659
+ drawable:notification_bg_low_normal:2131099660
+ drawable:notification_bg_low_pressed:2131099661
+ drawable:notification_bg_normal:2131099662
+ drawable:notification_bg_normal_pressed:2131099663
+ drawable:notification_icon_background:2131099664
+ drawable:notification_oversize_large_icon_bg:2131099665
+ drawable:notification_template_icon_bg:2131099666
+ drawable:notification_template_icon_low_bg:2131099667
+ drawable:notification_tile_bg:2131099668
  id:accessibility_action_clickable_span:2131165184
  id:accessibility_custom_action_0:2131165185
  id:accessibility_custom_action_1:2131165186
@@ -2400,9 +2411,10 @@ Unused resources are:
  dimen:subtitle_outline_width:2131034135
  dimen:subtitle_shadow_offset:2131034136
  dimen:subtitle_shadow_radius:2131034137
- drawable:ic_call_answer_low:2131099649
- drawable:ic_call_answer_video_low:2131099651
- drawable:ic_call_decline_low:2131099653
+ drawable:ic_call_answer_low:2131099651
+ drawable:ic_call_answer_video_low:2131099653
+ drawable:ic_call_decline_low:2131099655
+ drawable:splash_logo:2131099671
  id:adjacent:2131165223
  id:always:2131165224
  id:alwaysAllow:2131165225
@@ -2442,6 +2454,7 @@ Skipped unused resource res/animator/fragment_fade_enter.xml: 543 bytes (replace
 Skipped unused resource res/animator/fragment_fade_exit.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/animator/fragment_open_enter.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/animator/fragment_open_exit.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/splash_logo.jpg: 27122 bytes (replaced with small dummy file of size 0 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_low.png: 270 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_video_low.png: 199 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_decline_low.png: 201 bytes (replaced with small dummy file of size 67 bytes)

@@ -9,24 +9,36 @@ android {
     compileSdk = 34
     ndkVersion = "27.0.12077973"
 
+    // ======== ADD THIS SIGNING CONFIG BLOCK ========
+    signingConfigs {
+        release {
+            storeFile file("upload-keystore.jks")  // Relative path to android/app
+            storePassword "fisi1234" // Replace with actual password
+            keyAlias "upload"                      // Must match your key alias
+            keyPassword "fisi1234"        // Replace with actual password
+        }
+    }
+
     defaultConfig {
         applicationId = "com.ai.edumate"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
-        multiDexEnabled = true  // Enable multidex if needed
+        multiDexEnabled = true
 
-        // Set up the default Java compatibility for the app
         compileOptions {
             sourceCompatibility = JavaVersion.VERSION_17
             targetCompatibility = JavaVersion.VERSION_17
-            coreLibraryDesugaringEnabled = true  // Desugaring enabled correctly
+            coreLibraryDesugaringEnabled = true
         }
     }
 
     buildTypes {
         release {
+            // ======== ENABLE SIGNING CONFIG ========
+            signingConfig signingConfigs.release  // Connect to signing config
+            
             shrinkResources = true
             minifyEnabled = true
             proguardFiles(
@@ -36,22 +48,13 @@ android {
         }
     }
 
-    // Kotlin JVM options (to make sure it's aligned with Java 17)
     kotlinOptions {
         jvmTarget = '17'
     }
 }
 
 dependencies {
-    // Core Library Desugaring (use coreLibraryDesugaring configuration)
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
-
-    // Kotlin standard library (Kotlin version 1.9.22)
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-    // Multidex support (if you're targeting Android with over 65K methods)
     implementation 'androidx.multidex:multidex:2.0.1'
-
-    // Add other dependencies you might need like:
-    implementation 'com.android.support:support-compat:28.0.0'
 }
