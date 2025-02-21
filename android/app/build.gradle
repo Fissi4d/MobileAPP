@@ -2,6 +2,7 @@ plugins {
     id "com.android.application"
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
 }
 
 android {
@@ -20,6 +21,10 @@ android {
     }
 
     defaultConfig {
+        manifestPlaceholders = [
+            'appIdFacebook' : '2984912308330323' // From Facebook Developer
+        ]
+
         applicationId = "com.ai.edumate"
         minSdk = 23
         targetSdk = 34
@@ -57,4 +62,6 @@ dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
 }

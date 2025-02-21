@@ -15,7 +15,50 @@ class _ChatScreenState extends State<ChatScreen> {
   List<Map<String, dynamic>> messages = [];
   bool _isLoading = false;
 
-  // Function to send a message to OpenRouter API
+  void _scrollToBottom() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (_scrollController.hasClients) {
+        _scrollController.animateTo(
+          _scrollController.position.maxScrollExtent,
+          duration: Duration(milliseconds: 300),
+          curve: Curves.easeOut,
+        );
+      }
+    });
+  }
+
+  Future<void> _showClearConfirmation() async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Clear Chat History'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text('Are you sure you want to delete all chat messages?'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Cancel', style: TextStyle(color: Colors.red)),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+            TextButton(
+              child: Text('Clear', style: TextStyle(color: Colors.blue)),
+              onPressed: () {
+                setState(() => messages.clear());
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   Future<void> sendUserMessage(String message) async {
     if (message.isEmpty) return;
 
@@ -27,25 +70,27 @@ class _ChatScreenState extends State<ChatScreen> {
       });
       _isLoading = true;
     });
+    _scrollToBottom();
 
     try {
       final response = await http.post(
         Uri.parse('https://openrouter.ai/api/v1/chat/completions'),
         headers: {
-          'Authorization': 'Bearer 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',
-          'Content-Type': 'application/json',
+          'Authorization': 'Bearer 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',
+          'Content-Type': 'application/json; charset=utf-8',
         },
-        body: jsonEncode({
-          "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+        body: utf8.encode(jsonEncode({
+          "model": "google/gemini-2.0-flash-lite-preview-02-05:free",
           "messages": [{"role": "user", "content": message}],
-        }),
+        })),
       );
 
-      if (response.statusCode == 200 && response.body.isNotEmpty) {
-        final data = jsonDecode(response.body);
+      if (response.statusCode == 200) {
+        final String decodedBody = utf8.decode(response.bodyBytes);
+        final data = jsonDecode(decodedBody);
 
         if (data['choices'] == null || data['choices'].isEmpty) {
-          throw Exception("Invalid API response: ${response.body}");
+          throw Exception("Invalid API response: $decodedBody");
         }
 
         final String botMessage = data['choices'][0]['message']['content']?.trim() ?? "No response.";
@@ -57,20 +102,29 @@ class _ChatScreenState extends State<ChatScreen> {
             "timestamp": DateTime.now(),
           });
         });
+        _scrollToBottom();
       } else {
-        throw Exception("API Error: ${response.statusCode}");
+        final String errorBody = utf8.decode(response.bodyBytes);
+        throw Exception("API Error (${response.statusCode}): $errorBody");
       }
     } catch (e) {
       setState(() {
         messages.add({
-          "text": "An error occurred: $e",
+          "text": "An error occurred: ${e.toString()}",
           "isUser": false,
           "timestamp": DateTime.now(),
         });
       });
+      _scrollToBottom();
     } finally {
       setState(() => _isLoading = false);
     }
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
   }
 
   @override
@@ -80,6 +134,15 @@ class _ChatScreenState extends State<ChatScreen> {
         backgroundColor: Colors.white,
         elevation: 0,
         title: Text("Chat", style: TextStyle(color: Colors.black)),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.delete_forever, color: Colors.red),
+            tooltip: 'Clear chat',
+            onPressed: messages.isEmpty
+                ? null
+                : () => _showClearConfirmation(),
+          ),
+        ],
       ),
       backgroundColor: Colors.white,
       body: Column(
@@ -125,6 +188,12 @@ class _ChatScreenState extends State<ChatScreen> {
                       fillColor: Colors.grey[100],
                     ),
                     style: TextStyle(color: Colors.black),
+                    onSubmitted: (_) {
+                      if (!_isLoading) {
+                        sendUserMessage(_textController.text);
+                        _textController.clear();
+                      }
+                    },
                   ),
                 ),
                 SizedBox(width: 8.0),
@@ -149,7 +218,6 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 }
 
-// ✅ Fixed Emoji Display Using RichText (No Need for External Fonts)
 class ChatBubble extends StatelessWidget {
   final String text;
   final bool isUser;

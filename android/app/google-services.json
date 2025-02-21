@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "558275474499",
+    "project_id": "edumateai-c3089",
+    "storage_bucket": "edumateai-c3089.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558275474499:android:b66e0593cdfe1e9fb710f6",
+        "android_client_info": {
+          "package_name": "com.ai.edumate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558275474499-f9gn7kuvhlpv0d0tlf5dbh2u852a7l77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.edumate",
+            "certificate_hash": "277613e6f6fa99b6481736e0d0278f340754f012"
+          }
+        },
+        {
+          "client_id": "558275474499-9ivq6q0nfe8iul5lmli50h6qf2lesn3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbRn2OfcExguOEEBuYUCTBQxTfUGRFfGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558275474499-9ivq6q0nfe8iul5lmli50h6qf2lesn3g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "558275474499-8s733d6nk903re4lfrmrka5nm1sfesd1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ai.edumate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

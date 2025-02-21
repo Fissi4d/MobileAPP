@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'chat_screen.dart'; // Import the Chat Screen
-import 'todo_screen.dart'; // Import the Todo Screen
-import 'providers/task_list_provider.dart'; // Import the TaskListProvider
+import 'chat_screen.dart';
+import 'todo_screen.dart';
+import 'providers/task_list_provider.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -20,15 +20,18 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // Access provider (optional)
+    final taskListProvider = Provider.of<TaskListProvider>(context);
+
     return Scaffold(
       appBar: AppBar(
         title: Text("Student Helper App"),
       ),
-      body: IndexedStack( // Prevent widget recreation when switching tabs
+      body: IndexedStack(
         index: _currentIndex,
         children: [
           ChatScreen(),
-          TodoScreen(), // ✅ Now uses the provider from `main.dart`
+          TodoScreen(), // ✅ TodoScreen can still use Provider
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

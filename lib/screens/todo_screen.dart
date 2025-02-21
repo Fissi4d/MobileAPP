@@ -17,9 +17,7 @@ class TodoScreen extends StatelessWidget {
         iconTheme: IconThemeData(color: Colors.black),
         actions: [
           TextButton(
-            onPressed: () {
-              _showClearAllTasksConfirmation(context); // Show confirmation dialog
-            },
+            onPressed: () => _showClearAllTasksConfirmation(context),
             child: Text(
               "Clear All Tasks",
               style: TextStyle(color: Colors.red, fontSize: 16),
@@ -41,7 +39,7 @@ class TodoScreen extends StatelessWidget {
           return ListView.builder(
             itemCount: taskListProvider.tasks.length,
             itemBuilder: (context, index) {
-              final TaskModel task = taskListProvider.tasks[index];
+              final task = taskListProvider.tasks[index];
 
               return Dismissible(
                 key: Key(task.id),
@@ -52,16 +50,12 @@ class TodoScreen extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Icon(Icons.delete, color: Colors.white),
                 ),
-                onDismissed: (_) {
-                  taskListProvider.deleteTask(index);
-                },
+                onDismissed: (_) => taskListProvider.deleteTask(index),
                 child: ListTile(
                   contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   leading: Checkbox(
                     value: task.isCompleted,
-                    onChanged: (value) {
-                      taskListProvider.toggleTaskCompletion(index);
-                    },
+                    onChanged: (value) => taskListProvider.toggleTaskCompletion(index),
                     activeColor: Colors.blue,
                   ),
                   title: Text(
@@ -75,22 +69,23 @@ class TodoScreen extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       IconButton(
-                        icon: Icon(Icons.notifications, color: task.reminderTime != null ? Colors.orange : Colors.grey),
+                        icon: Icon(Icons.notifications,
+                            color: task.reminderTime != null ? Colors.orange : Colors.grey),
                         onPressed: () {
-                          _pickReminderDateTime(context, index);
+                          if (task.reminderTime != null) {
+                            _removeReminder(context, index);
+                          } else {
+                            _pickReminderDateTime(context, index);
+                          }
                         },
                       ),
                       IconButton(
-                        icon: Icon(Icons.delete, color: Colors.red), // Delete icon
-                        onPressed: () {
-                          _showDeleteTaskConfirmation(context, index); // Show confirmation dialog
-                        },
+                        icon: Icon(Icons.delete, color: Colors.red),
+                        onPressed: () => _showDeleteTaskConfirmation(context, index),
                       ),
                       IconButton(
                         icon: Icon(Icons.edit, color: Colors.blue),
-                        onPressed: () {
-                          _showEditTaskDialog(context, index, task.title);
-                        },
+                        onPressed: () => _showEditTaskDialog(context, index, task.title),
                       ),
                     ],
                   ),
@@ -101,11 +96,21 @@ class TodoScreen extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _showAddTaskDialog(context);
-        },
+        onPressed: () => _showAddTaskDialog(context),
         backgroundColor: Colors.black,
         child: Icon(Icons.add, color: Colors.white),
+      ),
+    );
+  }
+
+  // Add this new method for removing reminders
+  void _removeReminder(BuildContext context, int index) {
+    Provider.of<TaskListProvider>(context, listen: false).removeReminder(index);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text("Reminder removed", style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.red,
+        duration: Duration(seconds: 2),
       ),
     );
   }
@@ -189,8 +194,9 @@ class TodoScreen extends StatelessWidget {
     );
   }
 
+ // Updated edit task dialog
   void _showEditTaskDialog(BuildContext context, int index, String currentTaskTitle) {
-    _textController.text = currentTaskTitle; // Pre-fill the text field with the current task title
+    _textController.text = currentTaskTitle;
 
     showDialog(
       context: context,
@@ -208,15 +214,17 @@ class TodoScreen extends StatelessWidget {
         actions: [
           TextButton(
             onPressed: () {
+              _textController.clear();
               Navigator.pop(context);
             },
             child: Text("Cancel", style: TextStyle(color: Colors.red)),
           ),
           TextButton(
             onPressed: () {
-              final String updatedTaskTitle = _textController.text.trim();
-              if (updatedTaskTitle.isNotEmpty) {
-                Provider.of<TaskListProvider>(context, listen: false).updateTask(index, updatedTaskTitle);
+              final updatedTitle = _textController.text.trim();
+              if (updatedTitle.isNotEmpty) {
+                Provider.of<TaskListProvider>(context, listen: false)
+                    .updateTask(index, updatedTitle);
                 _textController.clear();
                 Navigator.pop(context);
               }
@@ -227,6 +235,10 @@ class TodoScreen extends StatelessWidget {
       ),
     );
   }
+
+  // Keep all other existing methods (pickReminderDateTime, showAddTaskDialog, 
+  // showDeleteTaskConfirmation, showClearAllTasksConfirmation) the same as before
+}
 
   void _showDeleteTaskConfirmation(BuildContext context, int index) {
     showDialog(
@@ -279,4 +291,3 @@ class TodoScreen extends StatelessWidget {
       ),
     );
   }
-}

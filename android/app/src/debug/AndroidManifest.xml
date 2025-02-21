@@ -1,20 +1,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Permissions -->
+    <!-- Required Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Existing permissions -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />  
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
-    <!-- Optional: Storage Permissions (only if needed) -->
-    <!-- Remove these if targeting Android 10+ (API level 29 and above) -->
-    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" /> -->
-    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="28" /> -->
-
+    <!-- Facebook SDK Requirements -->
     <queries>
+        <package android:name="com.facebook.katana" /> <!-- Facebook App -->
+        <package android:name="com.facebook.orca" />   <!-- Messenger -->
         <intent>
-            <action android:name="android.intent.action.PROCESS_TEXT" />
-            <data android:mimeType="text/plain" />
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
         </intent>
     </queries>
 
@@ -22,9 +24,42 @@
         android:label="EduMate AI"
         android:name="androidx.multidex.MultiDexApplication"
         android:icon="@mipmap/ic_launcher"
-        android:usesCleartextTraffic="false"> <!-- Consider changing to false if HTTPS is used -->
+        android:usesCleartextTraffic="false">
 
-        <!-- Metadata for Notification Channels -->
+        <!-- Firebase Configuration -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="default_channel" />
+
+        <!-- Google Sign-In -->
+        <meta-data
+            android:name="com.google.android.gms.auth.api.signin"
+            android:value="@string/default_web_client_id" />
+
+        <!-- Facebook Configuration -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/appIdFacebook" />
+
+        <!-- Facebook Activities -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:exported="true" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!-- Notifications & Background Services -->
         <meta-data
             android:name="com.dexterous.flutterlocalnotifications.notification_channel_name"
             android:value="Reminders" />
@@ -32,12 +67,10 @@
             android:name="com.dexterous.flutterlocalnotifications.notification_channel_description"
             android:value="Notification channel for reminders" />
 
-        <!-- Service for handling scheduled notifications -->
         <service
             android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsService"
             android:exported="false" />
 
-        <!-- Receiver for boot completed events -->
         <receiver
             android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsPluginRebootReceiver"
             android:exported="false">
@@ -63,6 +96,14 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Google Sign-In Intent Filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.googleusercontent.apps.558275474499-f9gn7kuvhlpv0d0tlf5dbh2u852a7l77.apps.googleusercontent.com" />
             </intent-filter>
         </activity>
 

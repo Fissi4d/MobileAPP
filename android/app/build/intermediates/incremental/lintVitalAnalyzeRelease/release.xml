@@ -24,15 +24,15 @@
   </testFixturesSourceProviders>
   <manifestPlaceholders>
     <placeholder
-        name="applicationName"
-        value="android.app.Application" />
+        name="appIdFacebook"
+        value="2984912308330323" />
   </manifestPlaceholders>
   <artifact
       classOutputs="build\intermediates\javac\release\classes;build\tmp\kotlin-classes\release;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
       type="MAIN"
       applicationId="com.ai.edumate"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out"
-      generatedResourceFolders="build\generated\res\resValues\release"
+      generatedResourceFolders="build\generated\res\google-services\release;build\generated\res\resValues\release"
       desugaredMethodsFiles="C:\Users\Gresa\.gradle\caches\transforms-3\e858f83c66ac2bbc7bed4f0fdc0d1e14\transformed\desugar_jdk_libs_configuration-2.0.4-desugar-lint.txt;C:\Users\Gresa\.gradle\caches\transforms-3\dacb31105af557d2013eab0e5573fae8\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>
