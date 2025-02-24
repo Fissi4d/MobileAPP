@@ -7,7 +7,7 @@
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.2.2;C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro;build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.2.2;proguard-rules.pro"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\out"
-    desugaredMethodsFiles="C:\Users\Gresa\.gradle\caches\transforms-3\e858f83c66ac2bbc7bed4f0fdc0d1e14\transformed\desugar_jdk_libs_configuration-2.0.4-desugar-lint.txt;C:\Users\Gresa\.gradle\caches\transforms-3\dacb31105af557d2013eab0e5573fae8\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\Gresa\.gradle\caches\transforms-3\b1ee2753175d0ac36969f45b5e68622b\transformed\desugar_jdk_libs_configuration-2.0.4-desugar-lint.txt;C:\Users\Gresa\.gradle\caches\transforms-3\12b9288af986df4150975499675cf07f\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       coreLibraryDesugaring="true"
       namespacing="REQUIRED"/>
@@ -33,6 +33,6 @@
       applicationId="com.ai.edumate"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out"
       generatedResourceFolders="build\generated\res\google-services\release;build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\Gresa\.gradle\caches\transforms-3\e858f83c66ac2bbc7bed4f0fdc0d1e14\transformed\desugar_jdk_libs_configuration-2.0.4-desugar-lint.txt;C:\Users\Gresa\.gradle\caches\transforms-3\dacb31105af557d2013eab0e5573fae8\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\Gresa\.gradle\caches\transforms-3\b1ee2753175d0ac36969f45b5e68622b\transformed\desugar_jdk_libs_configuration-2.0.4-desugar-lint.txt;C:\Users\Gresa\.gradle\caches\transforms-3\12b9288af986df4150975499675cf07f\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

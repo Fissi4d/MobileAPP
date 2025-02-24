@@ -5,8 +5,9 @@ import 'package:student_helper_app/screens/home_screen.dart'; // Import the Home
 import 'package:student_helper_app/screens/login_screen.dart'; // Import the Login Screen
 import 'package:student_helper_app/screens/providers/task_list_provider.dart'; // Import the TaskListProvider
 import 'package:permission_handler/permission_handler.dart';  // Add this import
+import 'package:firebase_auth/firebase_auth.dart'; // Import Firebase Auth
 
-void main() async {
+Future<void> main() async {
   // Ensure Flutter is initialized
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -52,11 +53,36 @@ class MyApp extends StatelessWidget {
             titleTextStyle: TextStyle(color: Colors.black, fontSize: 20), // Black app bar title
           ),
         ),
-        home: LoginScreen(), // Set LoginScreen as the initial screen
+        home: AuthGate(), // Use AuthGate to decide which screen to show based on auth state
         routes: {
           '/home': (context) => HomeScreen(), // Define the route for HomeScreen
         },
       ),
+    );
+  }
+}
+
+class AuthGate extends StatelessWidget {
+  const AuthGate({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        // While checking the auth state, show a loading indicator.
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            body: Center(child: CircularProgressIndicator()),
+          );
+        }
+        // If the user is logged in, navigate to HomeScreen.
+        if (snapshot.hasData && snapshot.data != null) {
+          return HomeScreen();
+        }
+        // Otherwise, show the LoginScreen.
+        return LoginScreen();
+      },
     );
   }
 }

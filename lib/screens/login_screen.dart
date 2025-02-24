@@ -5,7 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'signup_screen.dart';
+import 'package:student_helper_app/screens/login_page.dart';
+import 'home_screen.dart';
+import 'signup_details_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,14 +17,12 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
+      theme: ThemeData(useMaterial3: true),
       home: const LoginScreen(),
     );
   }
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
-
+  
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
@@ -38,6 +38,8 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   int _currentThemeIndex = 0;
   final FirebaseAuth _auth = FirebaseAuth.instance;
+  // Create a single GoogleSignIn instance with the required scope.
+  final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
   final List<Color> _backgroundColors = [
     const Color(0xFF4338FF),
@@ -57,19 +59,27 @@ class _LoginScreenState extends State<LoginScreen> {
       final LoginResult result = await FacebookAuth.instance.login(
         permissions: ['email', 'public_profile'],
       );
-
       if (result.status == LoginStatus.success) {
         final AccessToken accessToken = result.accessToken!;
-        final OAuthCredential credential = 
+        final OAuthCredential credential =
             FacebookAuthProvider.credential(accessToken.tokenString);
-
-        final UserCredential userCredential = 
+        final UserCredential userCredential =
             await _auth.signInWithCredential(credential);
-
-        // Handle successful login
         print('Facebook User: ${userCredential.user?.displayName}');
-        // Navigate to home screen or other post-login screen
-        // Navigator.pushReplacementNamed(context, '/home');
+        
+        if (userCredential.additionalUserInfo?.isNewUser == true) {
+          // New user: Navigate to SignUpDetailsScreen
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => const SignUpDetailsScreen()),
+          );
+        } else {
+          // Existing user: Navigate to HomeScreen
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => HomeScreen()),
+          );
+        }
       } else {
         _showErrorDialog('Login cancelled', 'You cancelled the Facebook login');
       }
@@ -97,29 +107,41 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Future<void> _signInWithGoogle() async {
-  try {
-    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
-    if (googleUser == null) {
-      _showErrorDialog('Login cancelled', 'You cancelled the Google login');
-      return;
+    try {
+      // Use the pre-created GoogleSignIn instance.
+      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
+      if (googleUser == null) {
+        _showErrorDialog('Login cancelled', 'You cancelled the Google login');
+        return;
+      }
+      final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+      final OAuthCredential credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
+      final UserCredential userCredential =
+          await _auth.signInWithCredential(credential);
+      print('Google User: ${userCredential.user?.displayName}');
+      
+      if (userCredential.additionalUserInfo?.isNewUser == true) {
+        // New user: Navigate to SignUpDetailsScreen
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const SignUpDetailsScreen()),
+        );
+      } else {
+        // Existing user: Navigate to HomeScreen
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => HomeScreen()),
+        );
+      }
+    } on FirebaseAuthException catch (e) {
+      _showErrorDialog('Login failed', e.message);
+    } catch (e) {
+      _showErrorDialog('Error', 'An unexpected error occurred');
     }
-
-    final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
-    final OAuthCredential credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth.accessToken,
-      idToken: googleAuth.idToken,
-    );
-
-    final UserCredential userCredential = await _auth.signInWithCredential(credential);
-    
-    print('Google User: ${userCredential.user?.displayName}');
-    // Navigate to home screen if needed
-  } on FirebaseAuthException catch (e) {
-    _showErrorDialog('Login failed', e.message);
-  } catch (e) {
-    _showErrorDialog('Error', 'An unexpected error occurred');
   }
-}
 
   @override
   Widget build(BuildContext context) {
@@ -159,7 +181,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         icon: FontAwesomeIcons.apple,
                         backgroundColor: Colors.white,
                         textColor: Colors.black,
-                        onPressed: () {},
+                        onPressed: () {
+                          // Implement Apple sign-in if needed
+                        },
                       ),
                       const SizedBox(height: 12),
                       _SocialButton(
@@ -183,10 +207,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         backgroundColor: Colors.black,
                         textColor: Colors.white,
                         onPressed: () {
+                          // This button can be used to sign up with email or for other login flows.
                           Navigator.push(
                             context,
-                            MaterialPageRoute(
-                              builder: (context) => const SignUpScreen()),
+                            MaterialPageRoute(builder: (context) => const LoginPage()),
                           );
                         },
                       ),
@@ -202,20 +226,17 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-// Keep _PulsingDot and _SocialButton classes the same as before
-
 class _PulsingDot extends StatefulWidget {
   const _PulsingDot({super.key});
-
+  
   @override
   State<_PulsingDot> createState() => _PulsingDotState();
 }
 
-class _PulsingDotState extends State<_PulsingDot>
-    with SingleTickerProviderStateMixin {
+class _PulsingDotState extends State<_PulsingDot> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
-
+  
   @override
   void initState() {
     super.initState();
@@ -225,13 +246,13 @@ class _PulsingDotState extends State<_PulsingDot>
     )..repeat(reverse: true);
     _animation = Tween<double>(begin: 0.5, end: 1.0).animate(_controller);
   }
-
+  
   @override
   void dispose() {
     _controller.dispose();
     super.dispose();
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return FadeTransition(
@@ -248,23 +269,22 @@ class _PulsingDotState extends State<_PulsingDot>
   }
 }
 
-// A reusable social button widget with FontAwesome icon
 class _SocialButton extends StatelessWidget {
   final String text;
   final IconData? icon;
   final Color backgroundColor;
   final Color textColor;
   final VoidCallback onPressed;
-
+  
   const _SocialButton({
     required this.text,
-    this.icon, // Make icon nullable
+    this.icon,
     required this.backgroundColor,
     required this.textColor,
     required this.onPressed,
     super.key,
   });
-
+  
   @override
   Widget build(BuildContext context) {
     return SizedBox(

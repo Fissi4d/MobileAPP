@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.9.22'  // Ensure this version is in sync with your app-level build.gradle
+    ext.kotlin_version = '2.1.10'  // Ensure this version is in sync with your app-level build.gradle
 
     repositories {
         google()

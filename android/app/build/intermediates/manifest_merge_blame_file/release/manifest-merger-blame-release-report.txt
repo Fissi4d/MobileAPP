@@ -55,39 +55,39 @@
 31    </queries>
 32
 33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-33-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Gresa\.gradle\caches\transforms-3\93f74e16c88eda5e45e29d07133150dc\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:5-98
-33-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Gresa\.gradle\caches\transforms-3\93f74e16c88eda5e45e29d07133150dc\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+33-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Gresa\.gradle\caches\transforms-3\692a00c3effb5efcf48034ea7709d5e9\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+33-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Gresa\.gradle\caches\transforms-3\692a00c3effb5efcf48034ea7709d5e9\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:9:22-95
 34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-34-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:16:5-79
-34-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:16:22-76
+34-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:16:5-79
+34-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:16:22-76
 35
 36    <permission
-36-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+36-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 37        android:name="com.ai.edumate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-37-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+37-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 38        android:protectionLevel="signature" />
-38-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+38-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 39
 40    <uses-permission android:name="com.ai.edumate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-40-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-40-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+40-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+40-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-41-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Gresa\.gradle\caches\transforms-3\2af5cbc2999c7e46d47230a26c76daa9\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-41-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Gresa\.gradle\caches\transforms-3\2af5cbc2999c7e46d47230a26c76daa9\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+41-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Gresa\.gradle\caches\transforms-3\428224fca1d4cdb3513776fb1ab4193e\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+41-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Gresa\.gradle\caches\transforms-3\428224fca1d4cdb3513776fb1ab4193e\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 42
 43    <application
-43-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:23:5-113:19
+43-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:23:5-116:19
 44        android:name="androidx.multidex.MultiDexApplication"
 44-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:25:9-61
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-45-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\227f26783403f3e1bbb2ea52047587b7\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+45-->[androidx.core:core:1.13.1] C:\Users\Gresa\.gradle\caches\transforms-3\09b604356f98a566fcae685e778bed4d\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 46        android:extractNativeLibs="false"
 47        android:icon="@mipmap/ic_launcher"
 47-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:26:9-43
 48        android:label="EduMate AI"
 48-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:24:9-35
 49        android:supportsRtl="true"
-49-->[com.facebook.android:facebook-login:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4e7284d796adf25bf1494d95682fa6bc\transformed\jetified-facebook-login-17.0.1\AndroidManifest.xml:16:18-44
+49-->[com.facebook.android:facebook-login:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\f57609fabb56c0f45c0caeaab7b4c0e9\transformed\jetified-facebook-login-17.0.1\AndroidManifest.xml:16:18-44
 50        android:usesCleartextTraffic="false" >
 50-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:27:9-45
 51
@@ -114,482 +114,506 @@
 64-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:41:13-58
 65            android:value="@string/appIdFacebook" />
 65-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:42:13-50
-66
-67        <!-- Facebook Activities -->
-68        <activity
-68-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:45:9-49:39
-69            android:name="com.facebook.FacebookActivity"
-69-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:46:13-57
-70            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-70-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:47:13-96
-71            android:exported="true"
-71-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:49:13-36
-72            android:label="@string/app_name"
-72-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:48:13-45
-73            android:theme="@style/com_facebook_activity_theme" />
-73-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\ec3b8b57dcbd89f2a36d18820fddd032\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:25:13-63
-74        <activity
-74-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:51:9-60:20
-75            android:name="com.facebook.CustomTabActivity"
-75-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:52:13-58
-76            android:exported="true" >
-76-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:53:13-36
-77            <intent-filter>
-77-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:54:13-59:29
-78                <action android:name="android.intent.action.VIEW" />
-78-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
-78-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
-79
-80                <category android:name="android.intent.category.DEFAULT" />
-80-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:17-76
-80-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:27-73
-81                <category android:name="android.intent.category.BROWSABLE" />
-81-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
-81-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+66        <meta-data
+66-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:43:9-45:61
+67            android:name="com.facebook.sdk.ClientToken"
+67-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:44:13-56
+68            android:value="@string/facebook_client_token" />
+68-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:45:13-58
+69
+70        <!-- Facebook Activities -->
+71        <activity
+71-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:48:9-52:39
+72            android:name="com.facebook.FacebookActivity"
+72-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:49:13-57
+73            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+73-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:50:13-96
+74            android:exported="true"
+74-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:52:13-36
+75            android:label="@string/app_name"
+75-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:51:13-45
+76            android:theme="@style/com_facebook_activity_theme" />
+76-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\d12112ce36b0a47022575499a04d6f0d\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:25:13-63
+77        <activity
+77-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:54:9-63:20
+78            android:name="com.facebook.CustomTabActivity"
+78-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:55:13-58
+79            android:exported="true" >
+79-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:13-36
+80            <intent-filter>
+80-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:57:13-62:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
+81-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
 82
-83                <data android:scheme="@string/fb_login_protocol_scheme" />
-83-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
-83-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
-84            </intent-filter>
-85            <intent-filter>
-85-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\ec3b8b57dcbd89f2a36d18820fddd032\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:31:13-40:29
-86                <action android:name="android.intent.action.VIEW" />
-86-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
-86-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
-87
-88                <category android:name="android.intent.category.DEFAULT" />
-88-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:17-76
-88-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:27-73
-89                <category android:name="android.intent.category.BROWSABLE" />
-89-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
-89-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:17-76
+83-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
+84-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+85
+86                <data android:scheme="@string/fb_login_protocol_scheme" />
+86-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
+86-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
+87            </intent-filter>
+88            <intent-filter>
+88-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\d12112ce36b0a47022575499a04d6f0d\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:31:13-40:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
+89-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
 90
-91                <data
-91-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
-92                    android:host="cct.com.ai.edumate"
-93                    android:scheme="fbconnect" />
-93-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
-94            </intent-filter>
-95        </activity>
-96
-97        <!-- Notifications & Background Services -->
-98        <meta-data
-98-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:63:9-65:41
-99            android:name="com.dexterous.flutterlocalnotifications.notification_channel_name"
-99-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:64:13-93
-100            android:value="Reminders" />
-100-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:65:13-38
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:17-76
+91-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
+92-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+93
+94                <data
+94-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
+95                    android:host="cct.com.ai.edumate"
+96                    android:scheme="fbconnect" />
+96-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
+97            </intent-filter>
+98        </activity>
+99
+100        <!-- Notifications & Background Services -->
 101        <meta-data
-101-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:66:9-68:66
-102            android:name="com.dexterous.flutterlocalnotifications.notification_channel_description"
-102-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:67:13-100
-103            android:value="Notification channel for reminders" />
-103-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:68:13-63
-104
-105        <service
-105-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:70:9-72:40
-106            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsService"
-106-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:71:13-105
-107            android:exported="false" />
-107-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:72:13-37
-108
-109        <receiver
-109-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:74:9-80:20
-110            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsPluginRebootReceiver"
-110-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:75:13-118
-111            android:exported="false" >
-111-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:76:13-37
-112            <intent-filter>
-112-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:77:13-79:29
-113                <action android:name="android.intent.action.BOOT_COMPLETED" />
-113-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:78:17-79
-113-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:78:25-76
-114            </intent-filter>
-115        </receiver>
-116
-117        <!-- Main Activity -->
-118        <activity
-118-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:83:9-108:20
-119            android:name="com.ai.edumate.MainActivity"
-119-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:84:13-55
-120            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-120-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:88:13-163
-121            android:exported="true"
-121-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:85:13-36
-122            android:hardwareAccelerated="true"
-122-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:89:13-47
-123            android:launchMode="singleTop"
-123-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:86:13-43
-124            android:theme="@style/LaunchTheme"
-124-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:87:13-47
-125            android:windowSoftInputMode="adjustResize" >
-125-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:90:13-55
-126            <meta-data
-126-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:92:13-94:57
-127                android:name="io.flutter.embedding.android.NormalTheme"
-127-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:93:17-72
-128                android:resource="@style/NormalTheme" />
-128-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:94:17-54
-129
-130            <intent-filter>
-130-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:96:13-99:29
-131                <action android:name="android.intent.action.MAIN" />
-131-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:97:17-69
-131-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:97:25-66
+101-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:66:9-68:41
+102            android:name="com.dexterous.flutterlocalnotifications.notification_channel_name"
+102-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:67:13-93
+103            android:value="Reminders" />
+103-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:68:13-38
+104        <meta-data
+104-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:69:9-71:66
+105            android:name="com.dexterous.flutterlocalnotifications.notification_channel_description"
+105-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:70:13-100
+106            android:value="Notification channel for reminders" />
+106-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:71:13-63
+107
+108        <service
+108-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:73:9-75:40
+109            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsService"
+109-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:74:13-105
+110            android:exported="false" />
+110-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:75:13-37
+111
+112        <receiver
+112-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:77:9-83:20
+113            android:name="dev.fluttercommunity.plus.localnotifications.FlutterLocalNotificationsPluginRebootReceiver"
+113-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:78:13-118
+114            android:exported="false" >
+114-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:79:13-37
+115            <intent-filter>
+115-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:80:13-82:29
+116                <action android:name="android.intent.action.BOOT_COMPLETED" />
+116-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:81:17-79
+116-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:81:25-76
+117            </intent-filter>
+118        </receiver>
+119
+120        <!-- Main Activity -->
+121        <activity
+121-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:86:9-111:20
+122            android:name="com.ai.edumate.MainActivity"
+122-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:87:13-55
+123            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+123-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:91:13-163
+124            android:exported="true"
+124-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:88:13-36
+125            android:hardwareAccelerated="true"
+125-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:92:13-47
+126            android:launchMode="singleTop"
+126-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:89:13-43
+127            android:theme="@style/LaunchTheme"
+127-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:90:13-47
+128            android:windowSoftInputMode="adjustResize" >
+128-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:93:13-55
+129            <meta-data
+129-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:95:13-97:57
+130                android:name="io.flutter.embedding.android.NormalTheme"
+130-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:96:17-72
+131                android:resource="@style/NormalTheme" />
+131-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:97:17-54
 132
-133                <category android:name="android.intent.category.LAUNCHER" />
-133-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:98:17-77
-133-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:98:27-74
-134            </intent-filter>
+133            <intent-filter>
+133-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:99:13-102:29
+134                <action android:name="android.intent.action.MAIN" />
+134-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:100:17-69
+134-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:100:25-66
 135
-136            <!-- Google Sign-In Intent Filter -->
-137            <intent-filter>
-137-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:102:13-107:29
-138                <action android:name="android.intent.action.VIEW" />
-138-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
-138-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
-139
-140                <category android:name="android.intent.category.DEFAULT" />
-140-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:17-76
-140-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:27-73
-141                <category android:name="android.intent.category.BROWSABLE" />
-141-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
-141-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+136                <category android:name="android.intent.category.LAUNCHER" />
+136-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:101:17-77
+136-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:101:27-74
+137            </intent-filter>
+138
+139            <!-- Google Sign-In Intent Filter -->
+140            <intent-filter>
+140-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:105:13-110:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
+141-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
 142
-143                <data android:scheme="com.googleusercontent.apps.558275474499-f9gn7kuvhlpv0d0tlf5dbh2u852a7l77.apps.googleusercontent.com" />
-143-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
-143-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
-144            </intent-filter>
-145        </activity>
-146
-147        <meta-data
-147-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:110:9-112:33
-148            android:name="flutterEmbedding"
-148-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:111:13-44
-149            android:value="2" />
-149-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:112:13-30
-150
-151        <service
-151-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-12:19
-152            android:name="com.google.firebase.components.ComponentDiscoveryService"
-152-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:18-89
-153            android:directBootAware="true"
-153-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-154            android:exported="false" >
-154-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:68:13-37
-155            <meta-data
-155-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
-156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-156-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
-157                android:value="com.google.firebase.components.ComponentRegistrar" />
-157-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:17-76
+143-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
+144-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+145
+146                <data android:scheme="com.googleusercontent.apps.558275474499-9ivq6q0nfe8iul5lmli50h6qf2lesn3g.apps.googleusercontent.com" />
+146-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
+146-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
+147            </intent-filter>
+148        </activity>
+149
+150        <meta-data
+150-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:113:9-115:33
+151            android:name="flutterEmbedding"
+151-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:114:13-44
+152            android:value="2" />
+152-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:115:13-30
+153
+154        <service
+154-->[:cloud_firestore] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-12:19
+155            android:name="com.google.firebase.components.ComponentDiscoveryService"
+155-->[:cloud_firestore] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:18-89
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:68:13-37
 158            <meta-data
-158-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
-159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-159-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
+158-->[:cloud_firestore] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+159-->[:cloud_firestore] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-134
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
-160-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+160-->[:cloud_firestore] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-5.6.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
 161            <meta-data
-161-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:69:13-71:85
-162                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-162-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:70:17-109
+161-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+162                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+162-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
 163                android:value="com.google.firebase.components.ComponentRegistrar" />
-163-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:71:17-82
+163-->[:firebase_auth] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.5.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
 164            <meta-data
-164-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\1e6a865d3d8440e52c1a39a22f6adeac\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-165                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-165-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\1e6a865d3d8440e52c1a39a22f6adeac\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+164-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+165                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+165-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
 166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\1e6a865d3d8440e52c1a39a22f6adeac\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+166-->[:firebase_core] C:\Users\Gresa\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.12.0\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
 167            <meta-data
-167-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-168                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-168-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+167-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:69:13-71:85
+168                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+168-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:70:17-109
 169                android:value="com.google.firebase.components.ComponentRegistrar" />
-169-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-170        </service>
-171
-172        <activity
-172-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:29:9-46:20
-173            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-173-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:30:13-80
-174            android:excludeFromRecents="true"
-174-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:31:13-46
-175            android:exported="true"
-175-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:32:13-36
-176            android:launchMode="singleTask"
-176-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:33:13-44
-177            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-177-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:34:13-72
-178            <intent-filter>
-178-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:35:13-45:29
-179                <action android:name="android.intent.action.VIEW" />
-179-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
-179-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
-180
-181                <category android:name="android.intent.category.DEFAULT" />
-181-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:17-76
-181-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:27-73
-182                <category android:name="android.intent.category.BROWSABLE" />
-182-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
-182-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+169-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:71:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:17:13-19:85
+171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+171-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:18:17-122
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:19:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:20:13-22:85
+174                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+174-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:21:17-111
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-firestore:25.1.2] C:\Users\Gresa\.gradle\caches\transforms-3\ecdb64f2dbdc66d1c3fc99548585b1d2\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:22:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\115b783b49222bbc902541f862b0fe7e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+177                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+177-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\115b783b49222bbc902541f862b0fe7e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\115b783b49222bbc902541f862b0fe7e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+180                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+180-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+182        </service>
 183
-184                <data
-184-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
-185                    android:host="firebase.auth"
-186                    android:path="/"
-187                    android:scheme="genericidp" />
-187-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
-188            </intent-filter>
-189        </activity>
-190        <activity
-190-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:47:9-64:20
-191            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-191-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:48:13-79
-192            android:excludeFromRecents="true"
-192-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:49:13-46
-193            android:exported="true"
-193-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:50:13-36
-194            android:launchMode="singleTask"
-194-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:51:13-44
-195            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-195-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:52:13-72
-196            <intent-filter>
-196-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7964e27cdd54c64b28e8246c21eca39a\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:53:13-63:29
-197                <action android:name="android.intent.action.VIEW" />
-197-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
-197-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
-198
-199                <category android:name="android.intent.category.DEFAULT" />
-199-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:17-76
-199-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:56:27-73
-200                <category android:name="android.intent.category.BROWSABLE" />
-200-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
-200-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
-201
-202                <data
-202-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
-203                    android:host="firebase.auth"
-204                    android:path="/"
-205                    android:scheme="recaptcha" />
-205-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
-206            </intent-filter>
-207        </activity>
-208
-209        <provider
-209-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-210            android:name="com.google.firebase.provider.FirebaseInitProvider"
-210-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-211            android:authorities="com.ai.edumate.firebaseinitprovider"
-211-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-212            android:directBootAware="true"
-212-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-213            android:exported="false"
-213-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-214            android:initOrder="100" />
-214-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\f730b62e1eaeeca0269175da940564e9\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-215
-216        <activity android:name="com.facebook.CustomTabMainActivity" />
-216-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\ec3b8b57dcbd89f2a36d18820fddd032\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:26:9-71
-216-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\ec3b8b57dcbd89f2a36d18820fddd032\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:26:19-68
-217
-218        <uses-library
-218-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
-219            android:name="androidx.window.extensions"
-219-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
-220            android:required="false" />
-220-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
-221        <uses-library
-221-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
-222            android:name="androidx.window.sidecar"
-222-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
-223            android:required="false" />
-223-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\7e03c39da64355ac583bfa7535df7ba1\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
-224
-225        <service
-225-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-226            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
-226-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-227            android:enabled="true"
-227-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-228            android:exported="false" >
-228-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-229            <meta-data
-229-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-230                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
-230-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-231                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
-231-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-232        </service>
-233
-234        <activity
-234-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-235            android:name="androidx.credentials.playservices.HiddenActivity"
-235-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-236            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-236-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
-237            android:enabled="true"
-237-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-238            android:exported="false"
-238-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-239            android:fitsSystemWindows="true"
-239-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-240            android:theme="@style/Theme.Hidden" >
-240-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\122db593124f38e9868c9af8d14a7a72\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
-241        </activity>
-242        <activity
-242-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
-243            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-243-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
-244            android:excludeFromRecents="true"
-244-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
-245            android:exported="false"
-245-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
-246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-246-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
-247        <!--
-248            Service handling Google Sign-In user revocation. For apps that do not integrate with
-249            Google Sign-In, this service will never be started.
-250        -->
-251        <service
-251-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
-252            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-252-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
-253            android:exported="true"
-253-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
-254            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-254-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
-255            android:visibleToInstantApps="true" />
-255-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\e079b884f4726d7929bb6303aff18cf2\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
-256
-257        <activity
-257-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\980587c7b6ea6fd203c6f9a7ccf9047c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-258            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-258-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\980587c7b6ea6fd203c6f9a7ccf9047c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-259            android:exported="false"
-259-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\980587c7b6ea6fd203c6f9a7ccf9047c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-260            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-260-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\980587c7b6ea6fd203c6f9a7ccf9047c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-261
-262        <provider
-262-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
-263            android:name="androidx.startup.InitializationProvider"
-263-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
-264            android:authorities="com.ai.edumate.androidx-startup"
-264-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
-265            android:exported="false" >
-265-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
-266            <meta-data
-266-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-267                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-267-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-268                android:value="androidx.startup" />
-268-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\c6b21412dd0e9f36c631159ab69e9c0a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-269            <meta-data
-269-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-270                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-270-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-271                android:value="androidx.startup" />
-271-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-272        </provider>
+184        <activity
+184-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:29:9-46:20
+185            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+185-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:30:13-80
+186            android:excludeFromRecents="true"
+186-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:31:13-46
+187            android:exported="true"
+187-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:32:13-36
+188            android:launchMode="singleTask"
+188-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:33:13-44
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+189-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:34:13-72
+190            <intent-filter>
+190-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:35:13-45:29
+191                <action android:name="android.intent.action.VIEW" />
+191-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
+191-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
+192
+193                <category android:name="android.intent.category.DEFAULT" />
+193-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:17-76
+193-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:27-73
+194                <category android:name="android.intent.category.BROWSABLE" />
+194-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
+194-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+195
+196                <data
+196-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
+197                    android:host="firebase.auth"
+198                    android:path="/"
+199                    android:scheme="genericidp" />
+199-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
+200            </intent-filter>
+201        </activity>
+202        <activity
+202-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:47:9-64:20
+203            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+203-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:48:13-79
+204            android:excludeFromRecents="true"
+204-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:49:13-46
+205            android:exported="true"
+205-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:50:13-36
+206            android:launchMode="singleTask"
+206-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:51:13-44
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+207-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:52:13-72
+208            <intent-filter>
+208-->[com.google.firebase:firebase-auth:23.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\c0b56cae49e766e133afccfc2f3d2c57\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:53:13-63:29
+209                <action android:name="android.intent.action.VIEW" />
+209-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:13-65
+209-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:17:21-62
+210
+211                <category android:name="android.intent.category.DEFAULT" />
+211-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:17-76
+211-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:59:27-73
+212                <category android:name="android.intent.category.BROWSABLE" />
+212-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:13-74
+212-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:18:23-71
+213
+214                <data
+214-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:13-44
+215                    android:host="firebase.auth"
+216                    android:path="/"
+217                    android:scheme="recaptcha" />
+217-->C:\Users\Gresa\Desktop\MobileAPP\testapp\android\app\src\main\AndroidManifest.xml:19:19-41
+218            </intent-filter>
+219        </activity>
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+223            android:authorities="com.ai.edumate.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+225            android:exported="false"
+225-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+226            android:initOrder="100" />
+226-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\428e4dcbbc7d39babbce5b12058d7daf\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+227
+228        <activity android:name="com.facebook.CustomTabMainActivity" />
+228-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\d12112ce36b0a47022575499a04d6f0d\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:26:9-71
+228-->[com.facebook.android:facebook-common:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\d12112ce36b0a47022575499a04d6f0d\transformed\jetified-facebook-common-17.0.1\AndroidManifest.xml:26:19-68
+229
+230        <uses-library
+230-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+231            android:name="androidx.window.extensions"
+231-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+232            android:required="false" />
+232-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+233        <uses-library
+233-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+234            android:name="androidx.window.sidecar"
+234-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+235            android:required="false" />
+235-->[androidx.window:window:1.2.0] C:\Users\Gresa\.gradle\caches\transforms-3\396c3ff2864450a58abf570e0bb1cf58\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+236
+237        <service
+237-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+238            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+238-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+239            android:enabled="true"
+239-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+240            android:exported="false" >
+240-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+241            <meta-data
+241-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+242                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+242-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+243                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+243-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+244        </service>
+245
+246        <activity
+246-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+247            android:name="androidx.credentials.playservices.HiddenActivity"
+247-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+248            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+248-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+249            android:enabled="true"
+249-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+250            android:exported="false"
+250-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+251            android:fitsSystemWindows="true"
+251-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+252            android:theme="@style/Theme.Hidden" >
+252-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Gresa\.gradle\caches\transforms-3\112c02d3ec8014e8aa82c7e5bb30ca55\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+253        </activity>
+254        <activity
+254-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+255            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+255-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+256            android:excludeFromRecents="true"
+256-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+258-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+259        <!--
+260            Service handling Google Sign-In user revocation. For apps that do not integrate with
+261            Google Sign-In, this service will never be started.
+262        -->
+263        <service
+263-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+264            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+264-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+265            android:exported="true"
+265-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+266            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+266-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+267            android:visibleToInstantApps="true" />
+267-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\Gresa\.gradle\caches\transforms-3\68d75341eb86801ea4047e86b901cc39\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+268
+269        <activity
+269-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Gresa\.gradle\caches\transforms-3\6cce2783cc6e7ebda639ba66475f5053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+270            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+270-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Gresa\.gradle\caches\transforms-3\6cce2783cc6e7ebda639ba66475f5053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+271            android:exported="false"
+271-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Gresa\.gradle\caches\transforms-3\6cce2783cc6e7ebda639ba66475f5053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+272            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+272-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Gresa\.gradle\caches\transforms-3\6cce2783cc6e7ebda639ba66475f5053\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 273
-274        <meta-data
-274-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\cc945f8b0f0a5e494036f74d9c34462b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-275            android:name="com.google.android.gms.version"
-275-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\cc945f8b0f0a5e494036f74d9c34462b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-276            android:value="@integer/google_play_services_version" />
-276-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\cc945f8b0f0a5e494036f74d9c34462b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-277        <!--
-278         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-279         with the application context. This config is merged in with the host app's manifest,
-280         but there can only be one provider with the same authority activated at any given
-281         point; so if the end user has two or more different apps that use Facebook SDK, only the
-282         first one will be able to use the provider. To work around this problem, we use the
-283         following placeholder in the authority to identify each host application as if it was
-284         a completely different provider.
-285        -->
-286        <provider
-286-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:29:9-32:40
-287            android:name="com.facebook.internal.FacebookInitProvider"
-287-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:30:13-70
-288            android:authorities="com.ai.edumate.FacebookInitProvider"
-288-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:31:13-72
-289            android:exported="false" />
-289-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:32:13-37
-290
-291        <receiver
-291-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:34:9-40:20
-292            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-292-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:35:13-86
-293            android:exported="false" >
-293-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:36:13-37
-294            <intent-filter>
-294-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:37:13-39:29
-295                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-295-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:38:17-95
-295-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:38:25-92
-296            </intent-filter>
-297        </receiver>
-298        <receiver
-298-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:41:9-47:20
-299            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-299-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:42:13-118
-300            android:exported="false" >
-300-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:43:13-37
-301            <intent-filter>
-301-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:44:13-46:29
-302                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-302-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:45:17-103
-302-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\4514639991e62a5444eb99876d66077b\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:45:25-100
-303            </intent-filter>
-304        </receiver>
-305        <receiver
-305-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-306            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-307            android:directBootAware="false"
-307-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-308            android:enabled="true"
-308-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-309            android:exported="true"
-309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-310            android:permission="android.permission.DUMP" >
-310-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-311            <intent-filter>
-311-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-312                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-312-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-312-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-313            </intent-filter>
-314            <intent-filter>
-314-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-315                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-315-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-315-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-316            </intent-filter>
-317            <intent-filter>
-317-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-318                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-318-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-318-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-319            </intent-filter>
-320            <intent-filter>
-320-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-321                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-321-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-321-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\44228fec3b3c14a2ed03e0df5e8b5db9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-322            </intent-filter>
-323        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
-324        <activity
-324-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\64b563f8e02d7002a54c897ac759d827\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
-325            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-325-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\64b563f8e02d7002a54c897ac759d827\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
-326            android:exported="false"
-326-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\64b563f8e02d7002a54c897ac759d827\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
-327            android:stateNotNeeded="true"
-327-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\64b563f8e02d7002a54c897ac759d827\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
-328            android:theme="@style/Theme.PlayCore.Transparent" />
-328-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\64b563f8e02d7002a54c897ac759d827\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
-329    </application>
-330
-331</manifest>
+274        <provider
+274-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+275            android:name="androidx.startup.InitializationProvider"
+275-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+276            android:authorities="com.ai.edumate.androidx-startup"
+276-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+277            android:exported="false" >
+277-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+278            <meta-data
+278-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+279                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+279-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+280                android:value="androidx.startup" />
+280-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Gresa\.gradle\caches\transforms-3\b4f98a179e85329447ce52cfcf04820a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+281            <meta-data
+281-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+282                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+282-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+283                android:value="androidx.startup" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+284        </provider>
+285
+286        <meta-data
+286-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\123f3c75892478f29a160b3e914864bf\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+287            android:name="com.google.android.gms.version"
+287-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\123f3c75892478f29a160b3e914864bf\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+288            android:value="@integer/google_play_services_version" />
+288-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Gresa\.gradle\caches\transforms-3\123f3c75892478f29a160b3e914864bf\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+289        <!--
+290         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+291         with the application context. This config is merged in with the host app's manifest,
+292         but there can only be one provider with the same authority activated at any given
+293         point; so if the end user has two or more different apps that use Facebook SDK, only the
+294         first one will be able to use the provider. To work around this problem, we use the
+295         following placeholder in the authority to identify each host application as if it was
+296         a completely different provider.
+297        -->
+298        <provider
+298-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:29:9-32:40
+299            android:name="com.facebook.internal.FacebookInitProvider"
+299-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:30:13-70
+300            android:authorities="com.ai.edumate.FacebookInitProvider"
+300-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:31:13-72
+301            android:exported="false" />
+301-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:32:13-37
+302
+303        <receiver
+303-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:34:9-40:20
+304            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+304-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:35:13-86
+305            android:exported="false" >
+305-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:36:13-37
+306            <intent-filter>
+306-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:37:13-39:29
+307                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+307-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:38:17-95
+307-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:38:25-92
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:41:9-47:20
+311            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+311-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:42:13-118
+312            android:exported="false" >
+312-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:43:13-37
+313            <intent-filter>
+313-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:44:13-46:29
+314                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+314-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:45:17-103
+314-->[com.facebook.android:facebook-core:17.0.1] C:\Users\Gresa\.gradle\caches\transforms-3\e729891dd3c2fa2130da18bf4d74c691\transformed\jetified-facebook-core-17.0.1\AndroidManifest.xml:45:25-100
+315            </intent-filter>
+316        </receiver>
+317        <receiver
+317-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+318            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+319            android:directBootAware="false"
+319-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+320            android:enabled="true"
+320-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+321            android:exported="true"
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+322            android:permission="android.permission.DUMP" >
+322-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+324                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+325            </intent-filter>
+326            <intent-filter>
+326-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+327                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+327-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+327-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+328            </intent-filter>
+329            <intent-filter>
+329-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+330                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+330-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+330-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+331            </intent-filter>
+332            <intent-filter>
+332-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+333                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+333-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Gresa\.gradle\caches\transforms-3\af43ccbb4393b3edc7674e832ca00d7b\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+334            </intent-filter>
+335        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+336        <activity
+336-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\3d2e02e6a4ec97a8f86c0156b0f32ef8\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+337            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+337-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\3d2e02e6a4ec97a8f86c0156b0f32ef8\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+338            android:exported="false"
+338-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\3d2e02e6a4ec97a8f86c0156b0f32ef8\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+339            android:stateNotNeeded="true"
+339-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\3d2e02e6a4ec97a8f86c0156b0f32ef8\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+340            android:theme="@style/Theme.PlayCore.Transparent" />
+340-->[com.google.android.play:core-common:2.0.3] C:\Users\Gresa\.gradle\caches\transforms-3\3d2e02e6a4ec97a8f86c0156b0f32ef8\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+341    </application>
+342
+343</manifest>

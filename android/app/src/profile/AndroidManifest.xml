@@ -40,6 +40,9 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/appIdFacebook" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
 
         <!-- Facebook Activities -->
         <activity
@@ -103,7 +106,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="com.googleusercontent.apps.558275474499-f9gn7kuvhlpv0d0tlf5dbh2u852a7l77.apps.googleusercontent.com" />
+                <data android:scheme="com.googleusercontent.apps.558275474499-9ivq6q0nfe8iul5lmli50h6qf2lesn3g.apps.googleusercontent.com" />
             </intent-filter>
         </activity>
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ai.edumate.app-mergeReleaseResources-46:/values-v23/values-v23.xml",
+            "outputFile": "com.ai.edumate.app-mergeReleaseResources-47:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\5deddb27cb9cd887ff9c8834fff781f2\\transformed\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\9b4661a446d16be1d155b4c37d746328\\transformed\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\8ade680947da711363070c0cbfe61a59\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\77253b6990da1123e105d0db306004ee\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

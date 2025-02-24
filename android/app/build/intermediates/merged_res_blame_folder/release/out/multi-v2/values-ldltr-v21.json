@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ai.edumate.app-mergeReleaseResources-46:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.ai.edumate.app-mergeReleaseResources-47:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\5deddb27cb9cd887ff9c8834fff781f2\\transformed\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\9b4661a446d16be1d155b4c37d746328\\transformed\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

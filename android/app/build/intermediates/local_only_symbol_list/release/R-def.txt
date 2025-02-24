@@ -9,6 +9,7 @@ mipmap ic_launcher
 string appIdFacebook
 string app_name
 string default_web_client_id
+string facebook_client_token
 string fb_login_protocol_scheme
 string gcm_defaultSenderId
 string google_api_key

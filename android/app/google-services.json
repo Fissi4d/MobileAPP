@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "558275474499-f9gn7kuvhlpv0d0tlf5dbh2u852a7l77.apps.googleusercontent.com",
+          "client_id": "558275474499-533aoamqb5m5tne41drej9nblffbi9us.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.ai.edumate",
-            "certificate_hash": "277613e6f6fa99b6481736e0d0278f340754f012"
+            "certificate_hash": "6ac855a950ae1f2ed5cbcce7494c00d48f84ca7f"
           }
         },
         {

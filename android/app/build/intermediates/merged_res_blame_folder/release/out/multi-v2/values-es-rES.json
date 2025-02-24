@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ai.edumate.app-mergeReleaseResources-46:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.ai.edumate.app-mergeReleaseResources-47:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\4e7284d796adf25bf1494d95682fa6bc\\transformed\\jetified-facebook-login-17.0.1\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\Gresa\\.gradle\\caches\\transforms-3\\f57609fabb56c0f45c0caeaab7b4c0e9\\transformed\\jetified-facebook-login-17.0.1\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

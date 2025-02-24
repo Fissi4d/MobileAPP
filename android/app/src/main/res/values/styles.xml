@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Global string resources -->
-    <string name="appIdFacebook">2984912308330323</string>
+    <string name="appIdFacebook">fb2984912308330323</string>
     <string name="fb_login_protocol_scheme">fb2984912308330323</string>
+    <string name="facebook_client_token">65b957d43d734da442c828a7ea5b06f6</string>
     <string name="app_name">EduMate AI</string>
+    <string name="default_web_client_id">558275474499-9ivq6q0nfe8iul5lmli50h6qf2lesn3g.apps.googleusercontent.com</string>
 
     <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
